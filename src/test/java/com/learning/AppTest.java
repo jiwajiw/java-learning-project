@@ -78,3 +78,4 @@ class AppTest {
         assertEquals("available", response.jsonPath().getString("status"), "Неверный статус питомца");
     }
 }
+
